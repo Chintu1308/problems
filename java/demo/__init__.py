@@ -15,13 +15,13 @@ def compiles():
 
 @check50.check(compiles)
 def demo_2_3():
-    """demo_2_3"""
+    """demo_Ram"""
     test_input_output("Ram_input.txt", "Ram_output.txt")
 
 
 @check50.check(compiles)
 def demo_20_22():
-    """demo_20_22"""
+    """demo_Charan"""
     test_input_output("Charan_input.txt", "Charan_output.txt")
 
 
