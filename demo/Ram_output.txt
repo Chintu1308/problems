@@ -1,2 +1,2 @@
 Namaste.
-Enter Name: Welcome to Industry Ready Program Ram.
+Enter your name: Welcome to Industry Ready Program Ram.
