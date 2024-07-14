@@ -5,7 +5,6 @@ import check50
 def exists():
     """demo.py exists"""
     check50.exists("demo.py")
-    check50.exists("demo.c")
     check50.include("../../demo/Ram_input.txt", "../../demo/Ram_output.txt")
     check50.include("../../demo/Charan_input.txt", "../../demo/Charan_output.txt")
 
