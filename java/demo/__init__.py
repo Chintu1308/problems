@@ -16,7 +16,7 @@ def compiles():
 @check50.check(compiles)
 def demo_2_3():
     """demo_Ram"""
-    test_input_output("Ram_input.txt", "Ram_output.txt")
+    test_input_output("../../demo/Ram_input.txt", "../../demo/Ram_output.txt")
 
 
 @check50.check(compiles)
