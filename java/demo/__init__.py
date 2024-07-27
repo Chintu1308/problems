@@ -4,7 +4,7 @@ import check50
 def exists():
     """demo.java exists"""
     check50.exists("Demo.java")
-    check50.include("../../demo/Ram_input.txt", "../../demo/Charan_output.txt")
+    check50.include("../../demo/Ram_input.txt", "../../demo/Ram_output.txt")
     check50.include("../../demo/Charan_input.txt", "../../demo/Charan_output.txt")
 
 @check50.check(exists)
@@ -16,7 +16,7 @@ def compiles():
 @check50.check(compiles)
 def demo_2_3():
     """demo_Ram"""
-    test_input_output("../../demo/Ram_input.txt", "../../demo/Ram_output.txt")
+    test_input_output("Ram_input.txt", "Ram_output.txt")
 
 
 @check50.check(compiles)
