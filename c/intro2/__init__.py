@@ -24,72 +24,72 @@ def compiles():
     """intro2.c compiles"""
     check50.c.compile('intro2.c', lcs50=False)
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_1():
     """Test 1"""
     test_input_output("1.in", "1.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_2():
     """Test 2"""
     test_input_output("2.in", "2.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_3():
     """Test 3"""
     test_input_output("3.in", "3.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_4():
     """Test 4"""
     test_input_output("4.in", "4.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_5():
     """Test 5"""
     test_input_output("5.in", "5.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_6():
     """Test 6"""
     test_input_output("6.in", "6.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_7():
     """Test 7"""
     test_input_output("7.in", "7.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_8():
     """Test 8"""
     test_input_output("8.in", "8.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_9():
     """Test 9"""
     test_input_output("9.in", "9.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_10():
     """Test 10"""
     test_input_output("10.in", "10.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_11():
     """Test 11"""
     test_input_output("11.in", "11.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_12():
     """Test 12"""
     test_input_output("12.in", "12.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_13():
     """Test 13"""
     test_input_output("13.in", "13.out")
 
-@check50.check(compiles if compile_command else exists)
+@check50.check(compiles)
 def test_14():
     """Test 14"""
     test_input_output("14.in", "14.out")
