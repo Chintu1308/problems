@@ -98,3 +98,4 @@ def test_14():
 def test_input_output(input_file, output_file):
     """A function to test a single input/output pair"""
     check50.run("./intro2").stdin(open(input_file).read(), prompt=False).stdout(open(output_file).read(), regex=False).exit()
+
